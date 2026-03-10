@@ -388,39 +388,34 @@ function StagePaste({ onLoaded }) {
   );
 }
 
-function exportCsw(teams) {
-  const esc = (s) => String(s ?? "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+function exportCsv(teams) {
+  const esc = (s) => {
+    const str = String(s ?? "");
+    // Wrap in quotes if the value contains a comma, quote, or newline
+    return str.includes(",") || str.includes('"') || str.includes("\n")
+      ? `"${str.replace(/"/g, '""')}"`
+      : str;
+  };
 
-  const records = teams.flatMap((team) =>
-    team.datasets.map((ds) => `
-    <csw:Record>
-      <dc:identifier>${esc(ds.identifier)}</dc:identifier>
-      <dc:title>${esc(ds.title)}</dc:title>
-      <dc:type>dataset</dc:type>
-      <dc:subject>${esc(team.title)}</dc:subject>${ds.wfsTitle ? `
-      <dct:references scheme="OGC:WFS">${esc(ds.wfsTitle)}</dct:references>` : ""}${ds.wmsTitle ? `
-      <dct:references scheme="OGC:WMS">${esc(ds.wmsTitle)}</dct:references>` : ""}${ds.isDokData !== null ? `
-      <dc:relation>isDokData:${ds.isDokData}</dc:relation>` : ""}${ds.dataAccess != null ? `
-      <dc:rights>${esc(ds.dataAccess)}</dc:rights>` : ""}${ds.seriesCount > 0 ? `
-      <dc:description>seriesCount:${ds.seriesCount}</dc:description>` : ""}
-    </csw:Record>`)
+  const headers = ["Team", "Title", "Identifier", "WFS Service", "WMS Service", "Series Count", "DOK Data", "Data Access"];
+  const rows = teams.flatMap((team) =>
+    team.datasets.map((ds) => [
+      team.title,
+      ds.title,
+      ds.identifier,
+      ds.wfsTitle,
+      ds.wmsTitle,
+      ds.seriesCount > 0 ? ds.seriesCount : "",
+      ds.isDokData === true ? "Yes" : ds.isDokData === false ? "No" : "",
+      ds.dataAccess ?? "",
+    ].map(esc).join(","))
   );
 
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<csw:GetRecordsResponse
-  xmlns:csw="http://www.opengis.net/cat/csw/2.0.2"
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:dct="http://purl.org/dc/terms/"
-  version="2.0.2">
-  <csw:SearchStatus timestamp="${new Date().toISOString()}" />
-  <csw:SearchResults numberOfRecordsMatched="${records.length}" numberOfRecordsReturned="${records.length}" nextRecord="0">
-${records.join("\n")}
-  </csw:SearchResults>
-</csw:GetRecordsResponse>`;
-
-  const blob = new Blob([xml], { type: "application/xml" });
+  // BOM (\uFEFF) ensures Excel opens UTF-8 correctly
+  const csv  = "\uFEFF" + [headers.join(","), ...rows].join("\r\n");
+  const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
   const url  = URL.createObjectURL(blob);
-  const a    = Object.assign(document.createElement("a"), { href: url, download: "geonorge-csw-export.xml" });
+  const a    = Object.assign(document.createElement("a"), { href: url, download: "kv-datasett-export.csv" });
   a.click();
   URL.revokeObjectURL(url);
 }
@@ -459,13 +454,13 @@ function Tables({ jsonLdText, onBack }) {
           </div>
         ))}
         <div style={{ marginLeft: "auto" }}>
-          <button onClick={() => exportCsw(teams)} style={{
+          <button onClick={() => exportCsv(teams)} style={{
             padding: "5px 14px", fontSize: 11, fontFamily: "'Roboto', sans-serif",
             letterSpacing: "0.08em", textTransform: "uppercase",
             background: C.accent, color: "#fff",
             border: "none", borderRadius: 3, cursor: "pointer",
           }}>
-            ↓ Export CSW
+            ↓ Export CSV
           </button>
         </div>
       </div>
