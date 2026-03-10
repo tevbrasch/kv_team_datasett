@@ -1,0 +1,3783 @@
+{
+  "@context": {
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geonorge": "https://kartkatalog.geonorge.no/metadata/"
+  },
+  "@graph": [
+    {
+      "@id": "geonorge:team/team_-_smia",
+      "@type": "geonorge:Team",
+      "dcterms:title": "TEAM - SMIA",
+      "dcat:dataset": [
+        {
+          "@id": "geonorge:9bc064e3-6c34-4c3a-8421-00290052e9c0",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "9bc064e3-6c34-4c3a-8421-00290052e9c0",
+          "dcterms:title": "Administrative enheter - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [],
+          "geonorge:seriesCount": 35
+        },
+        {
+          "@id": "geonorge:6093c8a8-fa80-11e6-bc64-92361f002671",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "6093c8a8-fa80-11e6-bc64-92361f002671",
+          "dcterms:title": "Administrative enheter fylker",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/57c7fca8-c652-44f0-9762-688614891286",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "57c7fca8-c652-44f0-9762-688614891286",
+              "dcterms:title": "Administrative enheter WFS",
+              "dcterms:format": "OGC:WFS"
+            },
+            {
+              "@id": "geonorge:service/666e4559-60bf-4a1d-9e72-c43502a9a58b",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "666e4559-60bf-4a1d-9e72-c43502a9a58b",
+              "dcterms:title": "Administrative enheter WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:041f1e6e-bdbc-4091-b48f-8a5990f3cc5b",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "041f1e6e-bdbc-4091-b48f-8a5990f3cc5b",
+          "dcterms:title": "Administrative enheter kommuner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/57c7fca8-c652-44f0-9762-688614891286",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "57c7fca8-c652-44f0-9762-688614891286",
+              "dcterms:title": "Administrative enheter WFS",
+              "dcterms:format": "OGC:WFS"
+            },
+            {
+              "@id": "geonorge:service/666e4559-60bf-4a1d-9e72-c43502a9a58b",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "666e4559-60bf-4a1d-9e72-c43502a9a58b",
+              "dcterms:title": "Administrative enheter WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:4eccc7ed-916a-40d3-9b0c-7b02d44db0f9",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "4eccc7ed-916a-40d3-9b0c-7b02d44db0f9",
+          "dcterms:title": "Fylkeskart - kommunegrenser 2020, illustrasjonskart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:f7df7a18-b30f-4745-bd64-d0863812350c",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "f7df7a18-b30f-4745-bd64-d0863812350c",
+          "dcterms:title": "Matrikkelen - Adresse",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/f004268c-d4a1-4801-91cb-daa46236fab7",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "f004268c-d4a1-4801-91cb-daa46236fab7",
+              "dcterms:title": "Topografisk Norgeskart WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/0fa5fa99-27ce-49fc-adb1-551b93b7b4d4",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "0fa5fa99-27ce-49fc-adb1-551b93b7b4d4",
+              "dcterms:title": "Matrikkelen Enkel WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/0c0f114d-a8ee-444d-8a88-93459bccf506",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "0c0f114d-a8ee-444d-8a88-93459bccf506",
+              "dcterms:title": "Matrikkelen - Adresse WFS",
+              "dcterms:format": "OGC:WFS"
+            },
+            {
+              "@id": "geonorge:service/30dda4c6-2cba-4378-b2e7-26f644df9d99",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "30dda4c6-2cba-4378-b2e7-26f644df9d99",
+              "dcterms:title": "Matrikkelkart WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:365b0591-b536-42a6-a20d-22e404fbfe55",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "365b0591-b536-42a6-a20d-22e404fbfe55",
+          "dcterms:title": "Matrikkelen - Adresse Leilighetsnivå",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:e6efb7cc-2356-424e-b654-7e4085545688",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "e6efb7cc-2356-424e-b654-7e4085545688",
+          "dcterms:title": "Matrikkelen Adresse - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [],
+          "geonorge:seriesCount": 6
+        },
+        {
+          "@id": "geonorge:b1a91f1d-dd5a-4278-8a5e-4acd3ad75d40",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "b1a91f1d-dd5a-4278-8a5e-4acd3ad75d40",
+          "dcterms:title": "Matrikkelen Adresse Leilighetsnivå - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [],
+          "geonorge:seriesCount": 6
+        },
+        {
+          "@id": "geonorge:e106adf4-c9d8-4fce-a9b5-7886a4126d23",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "e106adf4-c9d8-4fce-a9b5-7886a4126d23",
+          "dcterms:title": "Norges maritime grenser",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/e4a89b8c-5c9e-4693-828f-ea813b639f3f",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "e4a89b8c-5c9e-4693-828f-ea813b639f3f",
+              "dcterms:title": "Norges maritime grenser WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/2e9f96de-5229-4d7b-a535-6392d8400dc3",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "2e9f96de-5229-4d7b-a535-6392d8400dc3",
+              "dcterms:title": "Norges økonomiske sone",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/d8ce8543-2de6-4d41-8e61-2c6cd65697ab",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "d8ce8543-2de6-4d41-8e61-2c6cd65697ab",
+              "dcterms:title": "Yttergrense for kontinentalsokkel",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/9ebee78a-407b-4cd9-8be5-721239810578",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "9ebee78a-407b-4cd9-8be5-721239810578",
+              "dcterms:title": "Territorialgrense 12 nautiske mil",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/ac2ca3b5-75cc-4d50-a080-149d8f67994a",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "ac2ca3b5-75cc-4d50-a080-149d8f67994a",
+              "dcterms:title": "Internasjonalt farvann",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/40c44792-4d91-4b0f-b715-45011fbb205c",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "40c44792-4d91-4b0f-b715-45011fbb205c",
+              "dcterms:title": "Indre farvann",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/1d6537ae-2f5c-4772-a864-6af00c54fcaa",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "1d6537ae-2f5c-4772-a864-6af00c54fcaa",
+              "dcterms:title": "Landareal Norge",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/b7f49a78-9651-4659-8f1c-54099bf07311",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "b7f49a78-9651-4659-8f1c-54099bf07311",
+              "dcterms:title": "200 nautiske mil",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/9b86ee62-10af-4fda-8579-b73057974dc0",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "9b86ee62-10af-4fda-8579-b73057974dc0",
+              "dcterms:title": "Sjøterritorium",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/4e1d1055-2311-4a9a-b66a-c5dbec523a86",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "4e1d1055-2311-4a9a-b66a-c5dbec523a86",
+              "dcterms:title": "Avtalt avgrensningslinje",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/d889e124-9aaf-444e-9c0c-2ba21245ffc1",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "d889e124-9aaf-444e-9c0c-2ba21245ffc1",
+              "dcterms:title": "Fastlands-Norge med indre farvann",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/4cb3314f-2ee5-40ae-93d5-208842b93879",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "4cb3314f-2ee5-40ae-93d5-208842b93879",
+              "dcterms:title": "Navn maritime grenser",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/fb5d6173-bd45-4745-b56d-fc429d6d340c",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "fb5d6173-bd45-4745-b56d-fc429d6d340c",
+              "dcterms:title": "Norges kontinentalsokkel",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/ea4a00b3-c791-4257-a499-f76d747202df",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "ea4a00b3-c791-4257-a499-f76d747202df",
+              "dcterms:title": "Fiskerigrense",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/18178955-5eb5-4ab7-895f-3354ba727479",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "18178955-5eb5-4ab7-895f-3354ba727479",
+              "dcterms:title": "Territorialfarvann",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/d9f4271d-bdcf-4737-a4f3-ad8aea83b9bc",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "d9f4271d-bdcf-4737-a4f3-ad8aea83b9bc",
+              "dcterms:title": "Det særskilte området, DSO",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/01b535c2-0972-43fe-ad53-6d8ec2e36969",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "01b535c2-0972-43fe-ad53-6d8ec2e36969",
+              "dcterms:title": "Navn maritime områder",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/c2c0c59d-04f6-4c6a-8503-b484b87d5bb9",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "c2c0c59d-04f6-4c6a-8503-b484b87d5bb9",
+              "dcterms:title": "Yttergrense for tilstøtende sone 24 nautiske mil",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/477a04f2-76a5-4629-bce1-e7e345c13eb1",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "477a04f2-76a5-4629-bce1-e7e345c13eb1",
+              "dcterms:title": "Territorialområde",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/44a4068d-0f60-418f-8ddf-16268938a76f",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "44a4068d-0f60-418f-8ddf-16268938a76f",
+              "dcterms:title": "Fiskevernsonen ved Svalbard",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/fe136813-4784-499a-a15b-8977491358f4",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "fe136813-4784-499a-a15b-8977491358f4",
+              "dcterms:title": "Fiskerisonen ved Jan Mayen",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/777d43e7-7144-405c-8f1b-9600be984973",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "777d43e7-7144-405c-8f1b-9600be984973",
+              "dcterms:title": "Avtalt avgrensningslinje for kontinentalsokkel",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/34840e7d-a045-4a54-9cbe-709baa295e95",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "34840e7d-a045-4a54-9cbe-709baa295e95",
+              "dcterms:title": "Norges maritime grenser WFS",
+              "dcterms:format": "OGC:WFS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:462a5297-33ef-438a-82a5-07fff5799be3",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "462a5297-33ef-438a-82a5-07fff5799be3",
+          "dcterms:title": "Postnummerområder",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/237aad42-8e68-4e05-9886-98ac1d4364ef",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "237aad42-8e68-4e05-9886-98ac1d4364ef",
+              "dcterms:title": "Postnummerområder WFS",
+              "dcterms:format": "OGC:WFS"
+            },
+            {
+              "@id": "geonorge:service/dd260cb5-2e1d-4597-89d2-63bb20df9958",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "dd260cb5-2e1d-4597-89d2-63bb20df9958",
+              "dcterms:title": "Postnummerområder WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:51d279f8-e2be-4f5e-9f72-1a53f7535ec1",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "51d279f8-e2be-4f5e-9f72-1a53f7535ec1",
+          "dcterms:title": "Statistiske enheter grunnkretser",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/cc7ded0b-7d34-4db6-8fdb-c5a7682b6836",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "cc7ded0b-7d34-4db6-8fdb-c5a7682b6836",
+              "dcterms:title": "Statistiske enheter grunnkretser WFS",
+              "dcterms:format": "OGC:WFS"
+            },
+            {
+              "@id": "geonorge:service/fef17a36-bd9a-4262-af34-8943cd712157",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "fef17a36-bd9a-4262-af34-8943cd712157",
+              "dcterms:title": "Statistiske enheter grunnkretser WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:02b6c97b-63da-4d46-9a70-6e9ef3442d54",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "02b6c97b-63da-4d46-9a70-6e9ef3442d54",
+          "dcterms:title": "Statistiske enheter grunnkretser - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/33239eb5-4563-40f1-b81b-fa1dff0f54e4",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "33239eb5-4563-40f1-b81b-fa1dff0f54e4",
+              "dcterms:title": "Statistiske enheter grunnkretser - historiske versjoner WFS",
+              "dcterms:format": "OGC:WFS"
+            }
+          ],
+          "geonorge:seriesCount": 27
+        },
+        {
+          "@id": "geonorge:30caed2f-454e-44be-b5cc-26bb5c0110ca",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "30caed2f-454e-44be-b5cc-26bb5c0110ca",
+          "dcterms:title": "Stedsnavn",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/edeadcaa-d7b2-4e57-9712-268971c34b5c",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "edeadcaa-d7b2-4e57-9712-268971c34b5c",
+              "dcterms:title": "Stedsnavn WFS",
+              "dcterms:format": "OGC:WFS"
+            },
+            {
+              "@id": "geonorge:service/c6eb0874-092a-4934-8ecb-d51da4c6f805",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "c6eb0874-092a-4934-8ecb-d51da4c6f805",
+              "dcterms:title": "Stedsnavn WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:e1c50348-962d-4047-8325-bdc265c853ed",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "e1c50348-962d-4047-8325-bdc265c853ed",
+          "dcterms:title": "Stedsnavn (komplett SSR)",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/de394500-fd30-405c-ab1d-e3be54d01126",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "de394500-fd30-405c-ab1d-e3be54d01126",
+              "dcterms:title": "Stedsnavn (komplett SSR) WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/0ed31290-808c-487a-9baa-7ce3cd633d53",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "0ed31290-808c-487a-9baa-7ce3cd633d53",
+              "dcterms:title": "Stedsnavn (komplett SSR) WFS",
+              "dcterms:format": "OGC:WFS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:b3270494-db34-4964-bfe9-a1e5666b680c",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "b3270494-db34-4964-bfe9-a1e5666b680c",
+          "dcterms:title": "Stemmekretser  - historiske data 2023",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:22703cc4-7774-4345-9f0b-28f899c10abc",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "22703cc4-7774-4345-9f0b-28f899c10abc",
+          "dcterms:title": "Stemmekretser - historiske data 2021",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:67d89aa2-ee97-43b2-bcf0-b044ac3b5844",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "67d89aa2-ee97-43b2-bcf0-b044ac3b5844",
+          "dcterms:title": "Stemmekretser - stortings- og sametingsvalget 2025",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:c7b24720-6a75-4cb4-af3d-dc1fd4e7d32e",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "c7b24720-6a75-4cb4-af3d-dc1fd4e7d32e",
+          "dcterms:title": "Valgdistrikter",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:49a5bc6f-2710-40c6-89ae-fe89f9da7773",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "49a5bc6f-2710-40c6-89ae-fe89f9da7773",
+          "dcterms:title": "Valginndelinger - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [],
+          "geonorge:seriesCount": 6
+        },
+        {
+          "@id": "geonorge:c703642c-90b8-4d0b-8f69-365649fdae38",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "c703642c-90b8-4d0b-8f69-365649fdae38",
+          "dcterms:title": "Valgkretser (stemmekretser) - historiske data 2015",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:55dea6ef-0a30-4214-b930-c6db062e0253",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "55dea6ef-0a30-4214-b930-c6db062e0253",
+          "dcterms:title": "Valgkretser (stemmekretser) - historiske data 2017",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:abb349dc-3625-41f9-b1a2-8f716bf53d77",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "abb349dc-3625-41f9-b1a2-8f716bf53d77",
+          "dcterms:title": "Valgkretser (stemmekretser) - historiske data 2019",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        }
+      ]
+    },
+    {
+      "@id": "geonorge:team/nn",
+      "@type": "geonorge:Team",
+      "dcterms:title": "NN",
+      "dcat:dataset": [
+        {
+          "@id": "geonorge:de04136f-d739-4c31-9ae9-2961d1dfd0f9",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "de04136f-d739-4c31-9ae9-2961d1dfd0f9",
+          "dcterms:title": "Ankerplasser",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:20e59043-da53-4f16-b369-0c0cb4743a4e",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "20e59043-da53-4f16-b369-0c0cb4743a4e",
+          "dcterms:title": "Arealstatistikk for Norge - historiske data",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [],
+          "geonorge:seriesCount": 7
+        },
+        {
+          "@id": "geonorge:1b637b61-281c-45bf-a22b-9236d8080ff1",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "1b637b61-281c-45bf-a22b-9236d8080ff1",
+          "dcterms:title": "Arealstatistikk for Norge 2025",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:7eb907de-fdaa-4442-a8eb-e4bd06da9ca8",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "7eb907de-fdaa-4442-a8eb-e4bd06da9ca8",
+          "dcterms:title": "Befolkning på grunnkretsnivå",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/4900878c-4568-47bf-a299-328b4ae10bc8",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "4900878c-4568-47bf-a299-328b4ae10bc8",
+              "dcterms:title": "Befolkning på grunnkretsnivå WFS",
+              "dcterms:format": "OGC:WFS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:38d3ada2-2cb4-4eee-91d8-f509ffc458c1",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "38d3ada2-2cb4-4eee-91d8-f509ffc458c1",
+          "dcterms:title": "Befolkning på grunnkretsnivå - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/dbf34b6b-8d7c-4170-bd5a-6ca306f3c68b",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "dbf34b6b-8d7c-4170-bd5a-6ca306f3c68b",
+              "dcterms:title": "Befolkning på grunnkretsnivå - historiske data WFS",
+              "dcterms:format": "OGC:WFS"
+            }
+          ],
+          "geonorge:seriesCount": 9
+        },
+        {
+          "@id": "geonorge:ac668c06-43c8-4c31-9910-93139abd24b0",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "ac668c06-43c8-4c31-9910-93139abd24b0",
+          "dcterms:title": "Datakvalitet på dybdedata i navigasjonsproduktene",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/c162af87-4c63-46cd-9c25-4f695690773f",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "c162af87-4c63-46cd-9c25-4f695690773f",
+              "dcterms:title": "Datakvalitet på dybdedata i navigasjonsproduktene WFS",
+              "dcterms:format": "OGC:WFS"
+            },
+            {
+              "@id": "geonorge:service/f614783c-589c-4d5a-b253-ecc0f8f5849e",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "f614783c-589c-4d5a-b253-ecc0f8f5849e",
+              "dcterms:title": "Datakvalitet på dybdedata i navigasjonsproduktene WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:d1b5217b-871d-4591-9597-a76f5a5668fc",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "d1b5217b-871d-4591-9597-a76f5a5668fc",
+          "dcterms:title": "Dumpefelt i sjø (forurenset sjøbunn)",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:82bc350b-2ab4-4604-a380-5b1baaf2730d",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "82bc350b-2ab4-4604-a380-5b1baaf2730d",
+          "dcterms:title": "Flommen i 1995",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:738d7288-f990-498b-9136-a8e9b24e9a10",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "738d7288-f990-498b-9136-a8e9b24e9a10",
+          "dcterms:title": "Konnekteringspunkter mellom Norge og Finland",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:04761a69-4b64-4aac-b975-f9e0dcc8526b",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "04761a69-4b64-4aac-b975-f9e0dcc8526b",
+          "dcterms:title": "Konnekteringspunkter mellom Norge og Sverige",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:1cdf2c9d-f9b5-4a66-8563-62c7600db245",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "1cdf2c9d-f9b5-4a66-8563-62c7600db245",
+          "dcterms:title": "Områder med farlige bølger langs Norskekysten",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/da81307f-c709-4d1c-8d84-f637b8e068a8",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "da81307f-c709-4d1c-8d84-f637b8e068a8",
+              "dcterms:title": "Områder med farlige bølger langs Norskekysten WFS",
+              "dcterms:format": "OGC:WFS"
+            },
+            {
+              "@id": "geonorge:service/64453561-4ee4-4ea0-86d2-c203061f1ad9",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "64453561-4ee4-4ea0-86d2-c203061f1ad9",
+              "dcterms:title": "Områder med farlige bølger langs Norskekysten WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:10846182-136a-4052-bc37-590686bfed1d",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "10846182-136a-4052-bc37-590686bfed1d",
+          "dcterms:title": "POD - Fylkeskart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:7d36accc-6951-46e0-a90b-973f4e9e3ec5",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "7d36accc-6951-46e0-a90b-973f4e9e3ec5",
+          "dcterms:title": "POD - Havnekart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:5cdcd696-75c0-4d86-80f6-bbdadf1e9dec",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "5cdcd696-75c0-4d86-80f6-bbdadf1e9dec",
+          "dcterms:title": "POD - Hovedkart (sjø)",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:d898d980-4d5f-48e0-83f2-200dd2db9868",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "d898d980-4d5f-48e0-83f2-200dd2db9868",
+          "dcterms:title": "POD - Kystkart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:3e2ca03a-0978-4d1a-894f-83866b3a0b5a",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "3e2ca03a-0978-4d1a-894f-83866b3a0b5a",
+          "dcterms:title": "POD - Norge 1:50000 (land)",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:8806f05f-3c3a-40b2-a09a-90736db990af",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "8806f05f-3c3a-40b2-a09a-90736db990af",
+          "dcterms:title": "POD - Norges grenser på land og i hav",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:e0374f9c-dfb4-4668-8df2-27664d13595b",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "e0374f9c-dfb4-4668-8df2-27664d13595b",
+          "dcterms:title": "POD - Norges landområder",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:06ac0b04-c4d6-4def-b617-2d8173ba96fa",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "06ac0b04-c4d6-4def-b617-2d8173ba96fa",
+          "dcterms:title": "POD - Overseilingskart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:4864f15d-10f8-41f9-b61f-57b5a00fbfe5",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "4864f15d-10f8-41f9-b61f-57b5a00fbfe5",
+          "dcterms:title": "POD - Svalbardkart (sjø)",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:587509c1-c022-4d81-8a15-b59b3cc6d8f0",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "587509c1-c022-4d81-8a15-b59b3cc6d8f0",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt Norge 2018 UInt-16",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:44254581-67ce-4485-aa2d-b933864812ef",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "44254581-67ce-4485-aa2d-b933864812ef",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt Norge 2019 Ulnt-16",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:8836717e-0305-479f-8bc0-7da9c130c716",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "8836717e-0305-479f-8bc0-7da9c130c716",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt Norge 2020 lnt-16",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:c0881506-1234-4af6-a899-841302cf92e9",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "c0881506-1234-4af6-a899-841302cf92e9",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt Norge 2021 juli-august lnt-16",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:e05bbaaa-650a-428c-87ea-7093332bb247",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "e05bbaaa-650a-428c-87ea-7093332bb247",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt Norge 2021 juni-juli lnt-16",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:3a9df1c0-5e5f-44b0-be51-9d7fde0c7dbe",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "3a9df1c0-5e5f-44b0-be51-9d7fde0c7dbe",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt Norge 2021 lnt-16",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:28ecfee1-7cb7-48d7-97ee-a9a0198d399f",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "28ecfee1-7cb7-48d7-97ee-a9a0198d399f",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt Norge 2022 juli-august lnt-16",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:ae91b309-1b76-4700-8f64-4b81d71fd61f",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "ae91b309-1b76-4700-8f64-4b81d71fd61f",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt Norge 2022 juni-juli lnt-16",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:f995c8ab-0d9b-4f9c-897c-f2c74da71178",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "f995c8ab-0d9b-4f9c-897c-f2c74da71178",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt Norge 2022 lnt-16",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:77341ada-0eb5-4a9c-9cc8-ecad5abaa23a",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "77341ada-0eb5-4a9c-9cc8-ecad5abaa23a",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt Norge 2023 juni-juli lnt-16",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:875d7f5b-3a97-4b2c-b060-b177aa7f055d",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "875d7f5b-3a97-4b2c-b060-b177aa7f055d",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt Norge 2023 lnt-16",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:ba52dcb0-ea81-42fb-9130-bf1d8b9dba53",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "ba52dcb0-ea81-42fb-9130-bf1d8b9dba53",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt Norge 2024 juli-august lnt-16",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:9db7d75a-bab9-43c2-86ab-8a9f32f6e2e0",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "9db7d75a-bab9-43c2-86ab-8a9f32f6e2e0",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt Norge 2024 juni-juli lnt-16",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:6a101658-fd3b-42f1-bb22-42832c88c540",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "6a101658-fd3b-42f1-bb22-42832c88c540",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt Norge 2024 lnt-16",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:2cebd738-253f-49ef-8bc0-4714f4eff01e",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "2cebd738-253f-49ef-8bc0-4714f4eff01e",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt Norge 2025 juli-august lnt-16",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:d480f3f4-8da3-42e6-a469-6059348f38bc",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "d480f3f4-8da3-42e6-a469-6059348f38bc",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt Norge 2025 juni-juli lnt-16",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:60ecee84-bd74-430c-92dc-a1a01a05df9e",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "60ecee84-bd74-430c-92dc-a1a01a05df9e",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt Norge 2025 lnt-16",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:42f35de3-c8eb-47be-972e-f0d5a80b6543",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "42f35de3-c8eb-47be-972e-f0d5a80b6543",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt opptak Norge 2015-2017",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/16c621ff-0498-4159-9597-542d5e8c11e0",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "16c621ff-0498-4159-9597-542d5e8c11e0",
+              "dcterms:title": "Satellittdata - Sentinel-2 - 2017",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:e6f6bd82-7303-47c5-8f2a-bc8212cfa9cd",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "e6f6bd82-7303-47c5-8f2a-bc8212cfa9cd",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt opptak Norge 2018",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/26969392-27a5-47ee-9a29-2c35085442aa",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "26969392-27a5-47ee-9a29-2c35085442aa",
+              "dcterms:title": "Satellittdata - Sentinel-2 - 2018",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:9183bd1b-6fc3-4fc0-9052-5bfa205ca8eb",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "9183bd1b-6fc3-4fc0-9052-5bfa205ca8eb",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt opptak Norge 2019",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:4862615c-7704-4a07-8c93-7ea2f1fd34aa",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "4862615c-7704-4a07-8c93-7ea2f1fd34aa",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt opptak Norge 2020",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:52f270a1-f649-4327-b0be-456ecfb9d81d",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "52f270a1-f649-4327-b0be-456ecfb9d81d",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt opptak Norge 2021",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:2e996bf2-9b7b-4700-8a26-c1a8a274c136",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "2e996bf2-9b7b-4700-8a26-c1a8a274c136",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt opptak Norge 2022",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:88f9723d-ea74-4b64-8014-8b1f71bb82c8",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "88f9723d-ea74-4b64-8014-8b1f71bb82c8",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt opptak Norge 2023",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:a20355ae-0f39-4b5d-985a-55e03da79290",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "a20355ae-0f39-4b5d-985a-55e03da79290",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt opptak Norge 2024",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:a4b61196-c2a3-4b19-834a-07aef20377f2",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "a4b61196-c2a3-4b19-834a-07aef20377f2",
+          "dcterms:title": "Satellittdata - Sentinel-2 - Skyfritt opptak Norge 2025",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:289d459c-0390-4000-84f3-88982f2cdb0c",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "289d459c-0390-4000-84f3-88982f2cdb0c",
+          "dcterms:title": "Soknegrenser",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:15593190-14cd-4d49-982d-c576ad64cc8d",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "15593190-14cd-4d49-982d-c576ad64cc8d",
+          "dcterms:title": "Test tjeneste",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:a5821b74-096d-4923-aa3c-387cfa0e6218",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "a5821b74-096d-4923-aa3c-387cfa0e6218",
+          "dcterms:title": "Vrak og hefter i sjøkart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        }
+      ]
+    },
+    {
+      "@id": "geonorge:team/kartprodukter",
+      "@type": "geonorge:Team",
+      "dcterms:title": "kartprodukter",
+      "dcat:dataset": [
+        {
+          "@id": "geonorge:45e69e05-d17f-42fd-8f01-43751b671853",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "45e69e05-d17f-42fd-8f01-43751b671853",
+          "dcterms:title": "Antarktis, illustrasjonskart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:825eab8c-9f97-4a21-8424-d51f0b02cada",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "825eab8c-9f97-4a21-8424-d51f0b02cada",
+          "dcterms:title": "Europa, Illustrasjonskart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:8c041919-607d-4df6-adbf-f2cce9472ad2",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "8c041919-607d-4df6-adbf-f2cce9472ad2",
+          "dcterms:title": "Fylkeskart - kommunegrenser 2019, illustrasjonskart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:82399812-ae1e-43fc-b29f-f1b28954b59b",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "82399812-ae1e-43fc-b29f-f1b28954b59b",
+          "dcterms:title": "Fylkeskart - kommunegrenser, illustrasjonskart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:52ff8958-88de-4d61-bc0e-4f1caeb6864f",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "52ff8958-88de-4d61-bc0e-4f1caeb6864f",
+          "dcterms:title": "Jan Mayen, illustrasjonskart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:11a70876-5b21-4cc6-8229-902266c4968f",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "11a70876-5b21-4cc6-8229-902266c4968f",
+          "dcterms:title": "N100 Kartdata",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/f004268c-d4a1-4801-91cb-daa46236fab7",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "f004268c-d4a1-4801-91cb-daa46236fab7",
+              "dcterms:title": "Topografisk Norgeskart WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/640297dc-0fbf-49c1-9266-1f82ac545260",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "640297dc-0fbf-49c1-9266-1f82ac545260",
+              "dcterms:title": "Kartdata WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:9c72cd67-3e71-426d-9914-f29a43dd28c4",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "9c72cd67-3e71-426d-9914-f29a43dd28c4",
+          "dcterms:title": "N100 Kartdata - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [],
+          "geonorge:seriesCount": 6
+        },
+        {
+          "@id": "geonorge:3f0e7bc6-1d9b-4559-a971-0081a092c31c",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "3f0e7bc6-1d9b-4559-a971-0081a092c31c",
+          "dcterms:title": "N100 Raster (UTM33) - Regionsvis",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:d87fde8d-f151-4560-8aa1-7ecb6a5d90f4",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "d87fde8d-f151-4560-8aa1-7ecb6a5d90f4",
+          "dcterms:title": "N100 Raster (UTM33) - Rutevis",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:aee42bb6-d0e9-4d70-86fe-6ea76c381055",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "aee42bb6-d0e9-4d70-86fe-6ea76c381055",
+          "dcterms:title": "N1000 Kartdata",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/f004268c-d4a1-4801-91cb-daa46236fab7",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "f004268c-d4a1-4801-91cb-daa46236fab7",
+              "dcterms:title": "Topografisk Norgeskart WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/8ecaa2d5-8b0a-46cf-a2a7-2584f78b12e2",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "8ecaa2d5-8b0a-46cf-a2a7-2584f78b12e2",
+              "dcterms:title": "Norges grunnkart WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/640297dc-0fbf-49c1-9266-1f82ac545260",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "640297dc-0fbf-49c1-9266-1f82ac545260",
+              "dcterms:title": "Kartdata WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/633f7795-3e71-4581-b710-cb359ff108cb",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "633f7795-3e71-4581-b710-cb359ff108cb",
+              "dcterms:title": "Bakgrunnskart for Matrikkelen WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/e84c9a6d-2297-4323-9078-36ac4b8e35e4",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "e84c9a6d-2297-4323-9078-36ac4b8e35e4",
+              "dcterms:title": "Topografisk Norgeskart gråtone WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:edeaf1da-24e8-4f20-a3cb-b358c2c8d7ce",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "edeaf1da-24e8-4f20-a3cb-b358c2c8d7ce",
+          "dcterms:title": "N1000 Kartdata - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [],
+          "geonorge:seriesCount": 20
+        },
+        {
+          "@id": "geonorge:6a21de44-5a66-49b3-89e9-88c8bd0b948f",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "6a21de44-5a66-49b3-89e9-88c8bd0b948f",
+          "dcterms:title": "N1000 Raster",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:b187c449-04ac-42fe-9eab-83d81bf338bc",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "b187c449-04ac-42fe-9eab-83d81bf338bc",
+          "dcterms:title": "N20 Bygning",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "dcterms:title": "FKB WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:c9e53371-c296-4631-a08d-2e7248a81757",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "c9e53371-c296-4631-a08d-2e7248a81757",
+          "dcterms:title": "N20 Kartdata",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "dcterms:title": "FKB WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:8d52075d-6ef6-4120-8041-d0c0901f21f7",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "8d52075d-6ef6-4120-8041-d0c0901f21f7",
+          "dcterms:title": "N2000 Kartdata",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/f004268c-d4a1-4801-91cb-daa46236fab7",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "f004268c-d4a1-4801-91cb-daa46236fab7",
+              "dcterms:title": "Topografisk Norgeskart WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/8ecaa2d5-8b0a-46cf-a2a7-2584f78b12e2",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "8ecaa2d5-8b0a-46cf-a2a7-2584f78b12e2",
+              "dcterms:title": "Norges grunnkart WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/e84c9a6d-2297-4323-9078-36ac4b8e35e4",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "e84c9a6d-2297-4323-9078-36ac4b8e35e4",
+              "dcterms:title": "Topografisk Norgeskart gråtone WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:ade4b55a-ae9d-4731-9bb3-bb5099a047be",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "ade4b55a-ae9d-4731-9bb3-bb5099a047be",
+          "dcterms:title": "N2000 Kartdata - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [],
+          "geonorge:seriesCount": 20
+        },
+        {
+          "@id": "geonorge:3a62a8dc-39ac-4309-a9e8-9e03ff1bfa87",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "3a62a8dc-39ac-4309-a9e8-9e03ff1bfa87",
+          "dcterms:title": "N2000 Raster",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:442cae64-b447-478d-b384-545bc1d9ab48",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "442cae64-b447-478d-b384-545bc1d9ab48",
+          "dcterms:title": "N250 Kartdata",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/f004268c-d4a1-4801-91cb-daa46236fab7",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "f004268c-d4a1-4801-91cb-daa46236fab7",
+              "dcterms:title": "Topografisk Norgeskart WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/aef58418-b0f0-4f7b-a88c-466c6525be32",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "aef58418-b0f0-4f7b-a88c-466c6525be32",
+              "dcterms:title": "Norwegian Arctic SDI WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/640297dc-0fbf-49c1-9266-1f82ac545260",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "640297dc-0fbf-49c1-9266-1f82ac545260",
+              "dcterms:title": "Kartdata WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/633f7795-3e71-4581-b710-cb359ff108cb",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "633f7795-3e71-4581-b710-cb359ff108cb",
+              "dcterms:title": "Bakgrunnskart for Matrikkelen WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/e84c9a6d-2297-4323-9078-36ac4b8e35e4",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "e84c9a6d-2297-4323-9078-36ac4b8e35e4",
+              "dcterms:title": "Topografisk Norgeskart gråtone WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:db576875-967d-45a8-a7a3-e8211c3f32ac",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "db576875-967d-45a8-a7a3-e8211c3f32ac",
+          "dcterms:title": "N250 Kartdata - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [],
+          "geonorge:seriesCount": 20
+        },
+        {
+          "@id": "geonorge:d2ae29bd-0692-40de-a173-833afcddfe22",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "d2ae29bd-0692-40de-a173-833afcddfe22",
+          "dcterms:title": "N250 Raster",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/aef58418-b0f0-4f7b-a88c-466c6525be32",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "aef58418-b0f0-4f7b-a88c-466c6525be32",
+              "dcterms:title": "Norwegian Arctic SDI WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:9dc66ebe-cae5-4157-a953-f11fdac34ac4",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "9dc66ebe-cae5-4157-a953-f11fdac34ac4",
+          "dcterms:title": "N5 Høydekurve",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:6bb353c3-2b21-42fe-b296-31e60f64f95d",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "6bb353c3-2b21-42fe-b296-31e60f64f95d",
+          "dcterms:title": "N5 Kartdata",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "dcterms:title": "FKB WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/aef58418-b0f0-4f7b-a88c-466c6525be32",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "aef58418-b0f0-4f7b-a88c-466c6525be32",
+              "dcterms:title": "Norwegian Arctic SDI WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:61f2b119-0b47-4f96-b97e-721e191cfcda",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "61f2b119-0b47-4f96-b97e-721e191cfcda",
+          "dcterms:title": "N5 Presentasjonsdata",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "dcterms:title": "FKB WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:bd23cc07-45d3-4346-a8cd-e8c9f506656e",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "bd23cc07-45d3-4346-a8cd-e8c9f506656e",
+          "dcterms:title": "N5 Raster",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/aef58418-b0f0-4f7b-a88c-466c6525be32",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "aef58418-b0f0-4f7b-a88c-466c6525be32",
+              "dcterms:title": "Norwegian Arctic SDI WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/79ea9761-1ac9-4780-a065-e4738835643e",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "79ea9761-1ac9-4780-a065-e4738835643e",
+              "dcterms:title": "N5Raster2 WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:ea192681-d039-42ec-b1bc-f3ce04c189ac",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "ea192681-d039-42ec-b1bc-f3ce04c189ac",
+          "dcterms:title": "N50 Kartdata",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/f004268c-d4a1-4801-91cb-daa46236fab7",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "f004268c-d4a1-4801-91cb-daa46236fab7",
+              "dcterms:title": "Topografisk Norgeskart WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/aef58418-b0f0-4f7b-a88c-466c6525be32",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "aef58418-b0f0-4f7b-a88c-466c6525be32",
+              "dcterms:title": "Norwegian Arctic SDI WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/640297dc-0fbf-49c1-9266-1f82ac545260",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "640297dc-0fbf-49c1-9266-1f82ac545260",
+              "dcterms:title": "Kartdata WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/633f7795-3e71-4581-b710-cb359ff108cb",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "633f7795-3e71-4581-b710-cb359ff108cb",
+              "dcterms:title": "Bakgrunnskart for Matrikkelen WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/e84c9a6d-2297-4323-9078-36ac4b8e35e4",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "e84c9a6d-2297-4323-9078-36ac4b8e35e4",
+              "dcterms:title": "Topografisk Norgeskart gråtone WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:92b0eb85-d63d-46fe-8c81-bd242fb2f6af",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "92b0eb85-d63d-46fe-8c81-bd242fb2f6af",
+          "dcterms:title": "N50 Kartdata - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [],
+          "geonorge:seriesCount": 20
+        },
+        {
+          "@id": "geonorge:bbe517ba-3b3a-4c96-a78e-104f6c4804d1",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "bbe517ba-3b3a-4c96-a78e-104f6c4804d1",
+          "dcterms:title": "N50 Raster (UTM32) - Rutevis",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/f004268c-d4a1-4801-91cb-daa46236fab7",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "f004268c-d4a1-4801-91cb-daa46236fab7",
+              "dcterms:title": "Topografisk Norgeskart WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:f89c916d-000c-4084-a2fb-d405dd65a7dc",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "f89c916d-000c-4084-a2fb-d405dd65a7dc",
+          "dcterms:title": "N50 Raster (UTM33) - Regionsvis",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/f004268c-d4a1-4801-91cb-daa46236fab7",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "f004268c-d4a1-4801-91cb-daa46236fab7",
+              "dcterms:title": "Topografisk Norgeskart WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:1a7d4919-fc5d-4278-9ae9-45ee23f26808",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "1a7d4919-fc5d-4278-9ae9-45ee23f26808",
+          "dcterms:title": "N50 Raster (UTM33) - Rutevis",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/f004268c-d4a1-4801-91cb-daa46236fab7",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "f004268c-d4a1-4801-91cb-daa46236fab7",
+              "dcterms:title": "Topografisk Norgeskart WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/aef58418-b0f0-4f7b-a88c-466c6525be32",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "aef58418-b0f0-4f7b-a88c-466c6525be32",
+              "dcterms:title": "Norwegian Arctic SDI WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:7938fc49-4550-4502-a438-d36e0d12783c",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "7938fc49-4550-4502-a438-d36e0d12783c",
+          "dcterms:title": "N50 Raster (UTM35) - Rutevis",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/f004268c-d4a1-4801-91cb-daa46236fab7",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "f004268c-d4a1-4801-91cb-daa46236fab7",
+              "dcterms:title": "Topografisk Norgeskart WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:86a4c445-2d88-4964-bdd2-a142749a665c",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "86a4c445-2d88-4964-bdd2-a142749a665c",
+          "dcterms:title": "N50 Raster - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [],
+          "geonorge:seriesCount": 48
+        },
+        {
+          "@id": "geonorge:58e0dbf8-0d47-47c8-8086-107a3fa2dfa4",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "58e0dbf8-0d47-47c8-8086-107a3fa2dfa4",
+          "dcterms:title": "N500 Kartdata",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/f004268c-d4a1-4801-91cb-daa46236fab7",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "f004268c-d4a1-4801-91cb-daa46236fab7",
+              "dcterms:title": "Topografisk Norgeskart WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/8ecaa2d5-8b0a-46cf-a2a7-2584f78b12e2",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "8ecaa2d5-8b0a-46cf-a2a7-2584f78b12e2",
+              "dcterms:title": "Norges grunnkart WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/633f7795-3e71-4581-b710-cb359ff108cb",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "633f7795-3e71-4581-b710-cb359ff108cb",
+              "dcterms:title": "Bakgrunnskart for Matrikkelen WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/e84c9a6d-2297-4323-9078-36ac4b8e35e4",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "e84c9a6d-2297-4323-9078-36ac4b8e35e4",
+              "dcterms:title": "Topografisk Norgeskart gråtone WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:b27336c0-7ca9-4df3-9fb0-b97f4e232488",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "b27336c0-7ca9-4df3-9fb0-b97f4e232488",
+          "dcterms:title": "N500 Kartdata - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [],
+          "geonorge:seriesCount": 20
+        },
+        {
+          "@id": "geonorge:b466d866-8e32-438b-bb58-80e52fe85ada",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "b466d866-8e32-438b-bb58-80e52fe85ada",
+          "dcterms:title": "N500 Raster",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:c777d53d-8916-4d9d-bae4-6d5140e0c569",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "c777d53d-8916-4d9d-bae4-6d5140e0c569",
+          "dcterms:title": "N5000 Kartdata",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/f004268c-d4a1-4801-91cb-daa46236fab7",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "f004268c-d4a1-4801-91cb-daa46236fab7",
+              "dcterms:title": "Topografisk Norgeskart WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/8ecaa2d5-8b0a-46cf-a2a7-2584f78b12e2",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "8ecaa2d5-8b0a-46cf-a2a7-2584f78b12e2",
+              "dcterms:title": "Norges grunnkart WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/e84c9a6d-2297-4323-9078-36ac4b8e35e4",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "e84c9a6d-2297-4323-9078-36ac4b8e35e4",
+              "dcterms:title": "Topografisk Norgeskart gråtone WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:cbbff544-064e-4280-95be-0875159362ee",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "cbbff544-064e-4280-95be-0875159362ee",
+          "dcterms:title": "N5000 Kartdata - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [],
+          "geonorge:seriesCount": 20
+        },
+        {
+          "@id": "geonorge:7e1b827e-3ccd-48a8-91ce-cc8125d6e4c1",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "7e1b827e-3ccd-48a8-91ce-cc8125d6e4c1",
+          "dcterms:title": "N5000 Raster",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:a081f7c8-07f5-4126-b268-1dd669df1250",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "a081f7c8-07f5-4126-b268-1dd669df1250",
+          "dcterms:title": "Nord-Europa, illustrasjonskart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:25b2c84f-b440-4222-b341-b0b05a424b02",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "25b2c84f-b440-4222-b341-b0b05a424b02",
+          "dcterms:title": "Norge 2019, illustrasjonskart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:c053cfe5-4618-45e9-b4cd-c132af12474d",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "c053cfe5-4618-45e9-b4cd-c132af12474d",
+          "dcterms:title": "Norge 2020, illustrasjonskart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:a374f867-60c0-4524-9eda-b15ab4d12858",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "a374f867-60c0-4524-9eda-b15ab4d12858",
+          "dcterms:title": "Norge, Illustrasjonskart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:870d142b-a8fd-4f26-9c72-948d79c1a454",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "870d142b-a8fd-4f26-9c72-948d79c1a454",
+          "dcterms:title": "Norges maritime grenser, illustrasjonskart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:0a850dd9-3c45-4cde-b3c5-b61d6157871d",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "0a850dd9-3c45-4cde-b3c5-b61d6157871d",
+          "dcterms:title": "Norgesrelieff, illustrasjonskart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:73d6303e-7815-4f91-8cd3-99a6e227b0a3",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "73d6303e-7815-4f91-8cd3-99a6e227b0a3",
+          "dcterms:title": "Svalbard, illustrasjonskart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        }
+      ]
+    },
+    {
+      "@id": "geonorge:team/team_-_raster_terreng",
+      "@type": "geonorge:Team",
+      "dcterms:title": "TEAM - Raster_Terreng",
+      "dcat:dataset": [
+        {
+          "@id": "geonorge:fd851873-f363-46f9-9fc6-bb1b403575df",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "fd851873-f363-46f9-9fc6-bb1b403575df",
+          "dcterms:title": "DTM 10 Terrengmodell (UTM32)",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/8c233f06-2327-46ed-b330-c57c86e70d79",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "8c233f06-2327-46ed-b330-c57c86e70d79",
+              "dcterms:title": "Terrengmodell WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:dddbb667-1303-4ac5-8640-7ec04c0e3918",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "dddbb667-1303-4ac5-8640-7ec04c0e3918",
+          "dcterms:title": "DTM 10 Terrengmodell (UTM33)",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/8c233f06-2327-46ed-b330-c57c86e70d79",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "8c233f06-2327-46ed-b330-c57c86e70d79",
+              "dcterms:title": "Terrengmodell WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:342be245-1bd5-427d-9e46-1c6d0f510194",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "342be245-1bd5-427d-9e46-1c6d0f510194",
+          "dcterms:title": "DTM 10 Terrengmodell (UTM33) - Historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [],
+          "geonorge:seriesCount": 4
+        },
+        {
+          "@id": "geonorge:294c21ca-eb83-49b9-8861-bb1595ce8768",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "294c21ca-eb83-49b9-8861-bb1595ce8768",
+          "dcterms:title": "DTM 10 Terrengmodell (UTM35)",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/8c233f06-2327-46ed-b330-c57c86e70d79",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "8c233f06-2327-46ed-b330-c57c86e70d79",
+              "dcterms:title": "Terrengmodell WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:e25d0104-0858-4d06-bba8-d154514c11d2",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "e25d0104-0858-4d06-bba8-d154514c11d2",
+          "dcterms:title": "DTM 50",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/8c233f06-2327-46ed-b330-c57c86e70d79",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "8c233f06-2327-46ed-b330-c57c86e70d79",
+              "dcterms:title": "Terrengmodell WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:9c6fd538-fde4-4764-864f-3d51308b717b",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "9c6fd538-fde4-4764-864f-3d51308b717b",
+          "dcterms:title": "Dekningsoversikter - flyfoto",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:39e022aa-c352-4351-b172-b980b03c578c",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "39e022aa-c352-4351-b172-b980b03c578c",
+          "dcterms:title": "Dybdedata - terrengmodeller 25 meters grid",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/010c3fc4-3551-47aa-b10a-e01735bd1c0f",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "010c3fc4-3551-47aa-b10a-e01735bd1c0f",
+              "dcterms:title": "Dybdedata skyggerelieff grå WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:13b707ad-a379-4bf0-a707-da237d646f44",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "13b707ad-a379-4bf0-a707-da237d646f44",
+          "dcterms:title": "Dybdedata - terrengmodeller 5 meters grid",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/010c3fc4-3551-47aa-b10a-e01735bd1c0f",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "010c3fc4-3551-47aa-b10a-e01735bd1c0f",
+              "dcterms:title": "Dybdedata skyggerelieff grå WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:eb2933a9-1699-40bf-b6b7-2adb66ccd714",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "eb2933a9-1699-40bf-b6b7-2adb66ccd714",
+          "dcterms:title": "Dybdedata - terrengmodeller 5 meters grid Søre Sunnmøre",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:67a3a191-49cc-45bc-baf0-eaaf7c513549",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "67a3a191-49cc-45bc-baf0-eaaf7c513549",
+          "dcterms:title": "Dybdedata - terrengmodeller 50 meters grid",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/010c3fc4-3551-47aa-b10a-e01735bd1c0f",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "010c3fc4-3551-47aa-b10a-e01735bd1c0f",
+              "dcterms:title": "Dybdedata skyggerelieff grå WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:bbd687d0-d34f-4d95-9e60-27e330e0f76e",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "bbd687d0-d34f-4d95-9e60-27e330e0f76e",
+          "dcterms:title": "Dybdedata - terrengmodeller 50 meters grid landsdekkende",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        }
+      ]
+    },
+    {
+      "@id": "geonorge:team/grunndata",
+      "@type": "geonorge:Team",
+      "dcterms:title": "Grunndata",
+      "dcat:dataset": [
+        {
+          "@id": "geonorge:52ae2a6f-cb80-40c2-823c-fa7b928fad15",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "52ae2a6f-cb80-40c2-823c-fa7b928fad15",
+          "dcterms:title": "Dreneringslinjer",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:77944f7e-3d75-4f6d-ae04-c528cc72e8f6",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "77944f7e-3d75-4f6d-ae04-c528cc72e8f6",
+          "dcterms:title": "Elveg 2.0",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/302fcb0e-a7dc-44f4-a336-8c9ee9709d73",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "302fcb0e-a7dc-44f4-a336-8c9ee9709d73",
+              "dcterms:title": "Vegnett2 WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:900206a8-686f-4591-9394-327eb02d0899",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "900206a8-686f-4591-9394-327eb02d0899",
+          "dcterms:title": "Forenklet Elveg 2.0",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/302fcb0e-a7dc-44f4-a336-8c9ee9709d73",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "302fcb0e-a7dc-44f4-a336-8c9ee9709d73",
+              "dcterms:title": "Vegnett2 WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:19ee16b4-ebe3-4e9d-8d86-0dc6b31f5c99",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "19ee16b4-ebe3-4e9d-8d86-0dc6b31f5c99",
+          "dcterms:title": "NVDB Rutedatasett",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:8c971626-e007-4b7d-9db1-425a72174ce7",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "8c971626-e007-4b7d-9db1-425a72174ce7",
+          "dcterms:title": "NVDB Rutedatasett 2.0",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:ad17eb84-b6b7-4fd1-99d9-b1b920421705",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "ad17eb84-b6b7-4fd1-99d9-b1b920421705",
+          "dcterms:title": "NVDB Vegnett",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:97e6a869-8dd4-4379-bf39-f7d7dbf94863",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "97e6a869-8dd4-4379-bf39-f7d7dbf94863",
+          "dcterms:title": "NVDB Vegnett Pluss",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:d1422d17-6d95-4ef1-96ab-8af31744dd63",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "d1422d17-6d95-4ef1-96ab-8af31744dd63",
+          "dcterms:title": "Turrutebasen",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/5eb2d447-752b-49f3-9acb-28d9461b2564",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "5eb2d447-752b-49f3-9acb-28d9461b2564",
+              "dcterms:title": "Turrutebasen WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/882e96f2-94c9-4119-91ed-692a09adbcf9",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "882e96f2-94c9-4119-91ed-692a09adbcf9",
+              "dcterms:title": "Turrutebasen WFS",
+              "dcterms:format": "OGC:WFS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "geonorge:team/team_-_hydris",
+      "@type": "geonorge:Team",
+      "dcterms:title": "TEAM - HYDRIS",
+      "dcat:dataset": [
+        {
+          "@id": "geonorge:871960a1-0f01-4c47-8f79-5d338b65197e",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "871960a1-0f01-4c47-8f79-5d338b65197e",
+          "dcterms:title": "Dybdedata - kurver generaliserte",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/7790f618-eb6a-4c4a-a925-8a605565ae92",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "7790f618-eb6a-4c4a-a925-8a605565ae92",
+              "dcterms:title": "Dybdedata - kurver generaliserte WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:2751aacf-5472-4850-a208-3532a51c529a",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "2751aacf-5472-4850-a208-3532a51c529a",
+          "dcterms:title": "Sjøkart - Dybdedata",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/9e01fc8e-e1d3-4d11-8b9d-22e1d132ddfe",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "9e01fc8e-e1d3-4d11-8b9d-22e1d132ddfe",
+              "dcterms:title": "Sjøkart - dybdedata WFS",
+              "dcterms:format": "OGC:WFS"
+            },
+            {
+              "@id": "geonorge:service/f753f8e2-dd56-48e4-a91f-e4fc84c61392",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "f753f8e2-dd56-48e4-a91f-e4fc84c61392",
+              "dcterms:title": "Sjøkart - datakvalitet dybdedata WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:a894ea02-d2dc-4550-ac3e-49230ceed42a",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "a894ea02-d2dc-4550-ac3e-49230ceed42a",
+          "dcterms:title": "Sjøkart - Maritim infrastruktur",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/f91314d8-d397-46d5-945a-27075f421081",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "f91314d8-d397-46d5-945a-27075f421081",
+              "dcterms:title": "Sjøkart - Maritim infrastruktur WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/5a0cfb26-59fe-480c-b8a3-afaa093a4779",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "5a0cfb26-59fe-480c-b8a3-afaa093a4779",
+              "dcterms:title": "Sjøkart - Maritim infrastruktur WFS",
+              "dcterms:format": "OGC:WFS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:f566c03d-5154-48eb-ad1f-2af4e8a1a5a3",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "f566c03d-5154-48eb-ad1f-2af4e8a1a5a3",
+          "dcterms:title": "Sjøkart - raster Havnekart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/3089e311-e933-47f7-bc62-ba42e58fa739",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "3089e311-e933-47f7-bc62-ba42e58fa739",
+              "dcterms:title": "Sjøkart - raster WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:5442bb1d-b0fb-4271-bf47-d80716699149",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "5442bb1d-b0fb-4271-bf47-d80716699149",
+          "dcterms:title": "Sjøkart - raster Hovedkart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/3089e311-e933-47f7-bc62-ba42e58fa739",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "3089e311-e933-47f7-bc62-ba42e58fa739",
+              "dcterms:title": "Sjøkart - raster WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:e747fc47-c65d-488f-851d-926a85853643",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "e747fc47-c65d-488f-851d-926a85853643",
+          "dcterms:title": "Sjøkart - raster Kystkart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/3089e311-e933-47f7-bc62-ba42e58fa739",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "3089e311-e933-47f7-bc62-ba42e58fa739",
+              "dcterms:title": "Sjøkart - raster WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:41c4e637-cc05-4e07-bdfe-c630abbc6635",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "41c4e637-cc05-4e07-bdfe-c630abbc6635",
+          "dcterms:title": "Sjøkart - raster Overseilingskart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/3089e311-e933-47f7-bc62-ba42e58fa739",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "3089e311-e933-47f7-bc62-ba42e58fa739",
+              "dcterms:title": "Sjøkart - raster WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:c48e7cb6-1d3e-4e86-958a-562177226b5b",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "c48e7cb6-1d3e-4e86-958a-562177226b5b",
+          "dcterms:title": "Sjøkart - raster Svalbardkart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/3089e311-e933-47f7-bc62-ba42e58fa739",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "3089e311-e933-47f7-bc62-ba42e58fa739",
+              "dcterms:title": "Sjøkart - raster WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "geonorge:team/team_-_tg",
+      "@type": "geonorge:Team",
+      "dcterms:title": "Team - TG",
+      "dcat:dataset": [
+        {
+          "@id": "geonorge:166382b4-82d6-4ea9-a68e-6fd0c87bf788",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "166382b4-82d6-4ea9-a68e-6fd0c87bf788",
+          "dcterms:title": "FKB-AR5",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "dcterms:title": "FKB WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/b1966b1e-8920-4405-bf0e-b8e7394ec8d5",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "b1966b1e-8920-4405-bf0e-b8e7394ec8d5",
+              "dcterms:title": "Arealressurskart - FKB-AR5 - WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ],
+          "geonorge:seriesCount": 5
+        },
+        {
+          "@id": "geonorge:87b31015-a3de-4540-9b8b-cb1bf4e1cb3a",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "87b31015-a3de-4540-9b8b-cb1bf4e1cb3a",
+          "dcterms:title": "FKB-Arealbruk",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "dcterms:title": "FKB WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:664a3220-d7ff-4dc6-bcd7-688527cf1f6d",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "664a3220-d7ff-4dc6-bcd7-688527cf1f6d",
+          "dcterms:title": "FKB-Arealbruk - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [],
+          "geonorge:seriesCount": 3
+        },
+        {
+          "@id": "geonorge:3165138f-1461-44fe-8b10-eac44e08a10a",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "3165138f-1461-44fe-8b10-eac44e08a10a",
+          "dcterms:title": "FKB-Bane",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "dcterms:title": "FKB WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:962b6873-0514-4c47-b409-684452e6dc49",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "962b6873-0514-4c47-b409-684452e6dc49",
+          "dcterms:title": "FKB-Bane - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [],
+          "geonorge:seriesCount": 3
+        },
+        {
+          "@id": "geonorge:ede5ffb2-ee2a-44a3-852d-369a14d97f2e",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "ede5ffb2-ee2a-44a3-852d-369a14d97f2e",
+          "dcterms:title": "FKB-BygnAnlegg",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "dcterms:title": "FKB WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:614ee2b0-c65d-4baa-b61f-e106a619acfc",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "614ee2b0-c65d-4baa-b61f-e106a619acfc",
+          "dcterms:title": "FKB-BygnAnlegg - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [],
+          "geonorge:seriesCount": 3
+        },
+        {
+          "@id": "geonorge:8b4304ea-4fb0-479c-a24d-fa225e2c6e97",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "8b4304ea-4fb0-479c-a24d-fa225e2c6e97",
+          "dcterms:title": "FKB-Bygning",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "dcterms:title": "FKB WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:071511e9-7030-46f7-8acc-0df3a26dea5d",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "071511e9-7030-46f7-8acc-0df3a26dea5d",
+          "dcterms:title": "FKB-Bygning - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [],
+          "geonorge:seriesCount": 3
+        },
+        {
+          "@id": "geonorge:86d6201a-4e0b-4f61-a1dc-c94164cfd160",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "86d6201a-4e0b-4f61-a1dc-c94164cfd160",
+          "dcterms:title": "FKB-Grønnstruktur",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/48ec2648-3cef-4817-a28f-aeaf00cfdc8f",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "48ec2648-3cef-4817-a28f-aeaf00cfdc8f",
+              "dcterms:title": "FKB-Grønnstruktur - WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:b49478fd-038e-4c2c-ae28-dda1958a8048",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "b49478fd-038e-4c2c-ae28-dda1958a8048",
+          "dcterms:title": "FKB-Høydekurve",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "dcterms:title": "FKB WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:a33b994c-a603-4152-b645-33c82a942669",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "a33b994c-a603-4152-b645-33c82a942669",
+          "dcterms:title": "FKB-Høydekurve - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [],
+          "geonorge:seriesCount": 3
+        },
+        {
+          "@id": "geonorge:6e05aefb-f90e-4c7d-9fb9-299574d0bbf6",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "6e05aefb-f90e-4c7d-9fb9-299574d0bbf6",
+          "dcterms:title": "FKB-Ledning",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "dcterms:title": "FKB WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:6da2f8d5-cef1-49fe-8184-ba3f6799b74e",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "6da2f8d5-cef1-49fe-8184-ba3f6799b74e",
+          "dcterms:title": "FKB-Ledning - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [],
+          "geonorge:seriesCount": 3
+        },
+        {
+          "@id": "geonorge:23dfcc33-fb04-4898-aa88-68b49c4bfea7",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "23dfcc33-fb04-4898-aa88-68b49c4bfea7",
+          "dcterms:title": "FKB-Lufthavn",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "dcterms:title": "FKB WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:3abf5af3-11b1-488a-a308-30b5f065ccb9",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "3abf5af3-11b1-488a-a308-30b5f065ccb9",
+          "dcterms:title": "FKB-Lufthavn - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [],
+          "geonorge:seriesCount": 3
+        },
+        {
+          "@id": "geonorge:aa3c01f3-0678-470d-b03b-33085a7bae28",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "aa3c01f3-0678-470d-b03b-33085a7bae28",
+          "dcterms:title": "FKB-Naturinfo",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "dcterms:title": "FKB WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:05e4f2e7-9afe-4897-9e6c-e121299d4b24",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "05e4f2e7-9afe-4897-9e6c-e121299d4b24",
+          "dcterms:title": "FKB-Naturinfo - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [],
+          "geonorge:seriesCount": 3
+        },
+        {
+          "@id": "geonorge:8944603c-9414-43a7-9421-9a1de9850a96",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "8944603c-9414-43a7-9421-9a1de9850a96",
+          "dcterms:title": "FKB-Tiltak",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "dcterms:title": "FKB WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:6c75368d-1bf9-4ae3-885a-e4ddbe1828cf",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "6c75368d-1bf9-4ae3-885a-e4ddbe1828cf",
+          "dcterms:title": "FKB-Tiltak - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [],
+          "geonorge:seriesCount": 3
+        },
+        {
+          "@id": "geonorge:cc3a2d98-52ac-4699-9947-ed0625903de4",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "cc3a2d98-52ac-4699-9947-ed0625903de4",
+          "dcterms:title": "FKB-TraktorvegSti",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "dcterms:title": "FKB WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/e45aea66-5d98-4703-8026-692c782eb5b0",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "e45aea66-5d98-4703-8026-692c782eb5b0",
+              "dcterms:title": "Traktorveg og Skogsbilveg WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/f38e7e46-bbe1-49ea-b221-e034c81fce1d",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "f38e7e46-bbe1-49ea-b221-e034c81fce1d",
+              "dcterms:title": "Traktorveg og Skogsbilveg WFS",
+              "dcterms:format": "OGC:WFS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:637a5216-bbfb-4b83-b75b-6a458224687f",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "637a5216-bbfb-4b83-b75b-6a458224687f",
+          "dcterms:title": "FKB-TraktorvegSti - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [],
+          "geonorge:seriesCount": 3
+        },
+        {
+          "@id": "geonorge:595e47d9-d201-479c-a77d-cbc1f573a76b",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "595e47d9-d201-479c-a77d-cbc1f573a76b",
+          "dcterms:title": "FKB-Vann",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "dcterms:title": "FKB WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:32c18e09-bff0-41ef-bf5f-6397313d5438",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "32c18e09-bff0-41ef-bf5f-6397313d5438",
+          "dcterms:title": "FKB-Vann - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [],
+          "geonorge:seriesCount": 3
+        },
+        {
+          "@id": "geonorge:4920b452-75cc-45f2-964c-3378204c3517",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "4920b452-75cc-45f2-964c-3378204c3517",
+          "dcterms:title": "FKB-Veg",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "dcterms:title": "FKB WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:930e4d1c-cf5a-467f-a3c7-7ed2918d1f7c",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "930e4d1c-cf5a-467f-a3c7-7ed2918d1f7c",
+          "dcterms:title": "FKB-Veg - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [],
+          "geonorge:seriesCount": 3
+        },
+        {
+          "@id": "geonorge:0e90ca71-6a02-4036-bd94-f219fe64645f",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "0e90ca71-6a02-4036-bd94-f219fe64645f",
+          "dcterms:title": "Felles KartdataBase (FKB)",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/f004268c-d4a1-4801-91cb-daa46236fab7",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "f004268c-d4a1-4801-91cb-daa46236fab7",
+              "dcterms:title": "Topografisk Norgeskart WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "84178e68-f40d-4bb4-b9f6-9bfdee2bcc7a",
+              "dcterms:title": "FKB WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/633f7795-3e71-4581-b710-cb359ff108cb",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "633f7795-3e71-4581-b710-cb359ff108cb",
+              "dcterms:title": "Bakgrunnskart for Matrikkelen WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/e84c9a6d-2297-4323-9078-36ac4b8e35e4",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "e84c9a6d-2297-4323-9078-36ac4b8e35e4",
+              "dcterms:title": "Topografisk Norgeskart gråtone WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:7e39afd2-5af6-435f-a859-5a86d136945b",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "7e39afd2-5af6-435f-a859-5a86d136945b",
+          "dcterms:title": "Servitutt",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Geovekst"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:843ab449-888c-4b08-bd66-d8b3efc0e529",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "843ab449-888c-4b08-bd66-d8b3efc0e529",
+          "dcterms:title": "Tilgjengelighet",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/831e9757-5ea0-417b-8545-9d3d82d15776",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "831e9757-5ea0-417b-8545-9d3d82d15776",
+              "dcterms:title": "Tilgjengelighet WFS",
+              "dcterms:format": "OGC:WFS"
+            },
+            {
+              "@id": "geonorge:service/b139a2c3-bdc3-4420-9def-4ce1080fcf0c",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "b139a2c3-bdc3-4420-9def-4ce1080fcf0c",
+              "dcterms:title": "Tilgjengelighet WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:24f0c2f9-4929-44b8-a305-a7de836fb62d",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "24f0c2f9-4929-44b8-a305-a7de836fb62d",
+          "dcterms:title": "Tilgjengelighet – friluftsliv – rapporter",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [],
+          "geonorge:seriesCount": 7
+        },
+        {
+          "@id": "geonorge:7ede3e98-465b-4b65-a227-7b4c80f65a29",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "7ede3e98-465b-4b65-a227-7b4c80f65a29",
+          "dcterms:title": "Tilgjengelighet – tettsted – rapporter",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [],
+          "geonorge:seriesCount": 7
+        }
+      ]
+    },
+    {
+      "@id": "geonorge:team/team_-_satref",
+      "@type": "geonorge:Team",
+      "dcterms:title": "TEAM - SATREF",
+      "dcat:dataset": [
+        {
+          "@id": "geonorge:43838cda-fa62-11e6-bc64-92361f002671",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "43838cda-fa62-11e6-bc64-92361f002671",
+          "dcterms:title": "Fastmerker - Høydefastmerker",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/8c2c434b-07f7-4ebc-9bc6-9c15cdd75c4c",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "8c2c434b-07f7-4ebc-9bc6-9c15cdd75c4c",
+              "dcterms:title": "Fastmerker & Basestajoner WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:b0bea40a-2e4b-4ae0-8439-7037a3b60181",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "b0bea40a-2e4b-4ae0-8439-7037a3b60181",
+          "dcterms:title": "Fastmerker - Landsnett og stamnett",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/8c2c434b-07f7-4ebc-9bc6-9c15cdd75c4c",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "8c2c434b-07f7-4ebc-9bc6-9c15cdd75c4c",
+              "dcterms:title": "Fastmerker & Basestajoner WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:dc37b5b6-fa60-11e6-bc64-92361f002671",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "dc37b5b6-fa60-11e6-bc64-92361f002671",
+          "dcterms:title": "Fastmerker - Trekantpunkter",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/8c2c434b-07f7-4ebc-9bc6-9c15cdd75c4c",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "8c2c434b-07f7-4ebc-9bc6-9c15cdd75c4c",
+              "dcterms:title": "Fastmerker & Basestajoner WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:4adc9b7e-17ee-4d77-a748-f244d3655485",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "4adc9b7e-17ee-4d77-a748-f244d3655485",
+          "dcterms:title": "Hastighetsfelt for Norge ITRF2008",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:352fba08-f25e-499d-8a80-a1f78e526641",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "352fba08-f25e-499d-8a80-a1f78e526641",
+          "dcterms:title": "Transformasjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        }
+      ]
+    },
+    {
+      "@id": "geonorge:team/team_-_overflate",
+      "@type": "geonorge:Team",
+      "dcterms:title": "TEAM - Overflate",
+      "dcat:dataset": [
+        {
+          "@id": "geonorge:e46767e4-c6d9-49a6-93e8-716da0922fd7",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "e46767e4-c6d9-49a6-93e8-716da0922fd7",
+          "dcterms:title": "Havnedata",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Norge digitalt begrenset",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/6e0d1be6-0ea4-4d11-aaf3-76ccec945d65",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "6e0d1be6-0ea4-4d11-aaf3-76ccec945d65",
+              "dcterms:title": "Havnedata WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:66763109-0fef-4797-9ed0-f27e1a373b84",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "66763109-0fef-4797-9ed0-f27e1a373b84",
+          "dcterms:title": "Middel høyvann over NN2000",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:ff1d42d4-907d-44bc-b17c-809dc9fb5a63",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "ff1d42d4-907d-44bc-b17c-809dc9fb5a63",
+          "dcterms:title": "Middel høyvann over ellipsoiden",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:dd1c9967-86c4-479c-b7b4-fc326c5d8783",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "dd1c9967-86c4-479c-b7b4-fc326c5d8783",
+          "dcterms:title": "Middelvann over LAT",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:30a0fb0a-1d7d-4c62-9f28-8769a7ec9dcd",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "30a0fb0a-1d7d-4c62-9f28-8769a7ec9dcd",
+          "dcterms:title": "Middelvann over NN2000",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:e857e50c-fce4-49dc-abf5-a135bad8f727",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "e857e50c-fce4-49dc-abf5-a135bad8f727",
+          "dcterms:title": "Middelvann over ellipsoiden",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:10bd8d30-65e0-46e1-a990-eeacb831f935",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "10bd8d30-65e0-46e1-a990-eeacb831f935",
+          "dcterms:title": "Middelvann over geoiden",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:31b267a7-a6e8-4d04-83f4-131b2e90a3f8",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "31b267a7-a6e8-4d04-83f4-131b2e90a3f8",
+          "dcterms:title": "Middelvann over sjøkartnull",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:b4f652c8-9478-4f65-8a22-c750cfd42ab3",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "b4f652c8-9478-4f65-8a22-c750cfd42ab3",
+          "dcterms:title": "Middelvann over sjøkartnull - Svalbard",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:8d122ce3-ff49-4617-93bd-2a4202defd9f",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "8d122ce3-ff49-4617-93bd-2a4202defd9f",
+          "dcterms:title": "NN2000 over sjøkartnull",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:7e6d474f-337e-410a-9c19-d74fac9143e4",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "7e6d474f-337e-410a-9c19-d74fac9143e4",
+          "dcterms:title": "Sjøkartnull over ellipsoiden",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:fbb95c67-623f-430a-9fa5-9cfcea8366b3",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "fbb95c67-623f-430a-9fa5-9cfcea8366b3",
+          "dcterms:title": "Stormflo og havnivå",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/294f3987-1cda-426e-baf9-a086a09b3e4d",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "294f3987-1cda-426e-baf9-a086a09b3e4d",
+              "dcterms:title": "Stormflo og havnivå WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/72f851eb-0ca8-4c24-8e7a-51b8ee8c1294",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "72f851eb-0ca8-4c24-8e7a-51b8ee8c1294",
+              "dcterms:title": "Stormflo og havnivå WFS",
+              "dcterms:format": "OGC:WFS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "geonorge:team/team_-_pust",
+      "@type": "geonorge:Team",
+      "dcterms:title": "TEAM - PUST",
+      "dcat:dataset": [
+        {
+          "@id": "geonorge:71a73064-59a5-4f03-a0b8-fa5c649c3fc9",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "71a73064-59a5-4f03-a0b8-fa5c649c3fc9",
+          "dcterms:title": "Høydereferansemodell NN2000",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:384ce432-8da7-4cfa-9afa-140d2b6c29d3",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "384ce432-8da7-4cfa-9afa-140d2b6c29d3",
+          "dcterms:title": "Høydereferansemodell NN2000:2025",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:c551feb6-d833-4ba8-96bf-9566ed1c6548",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "c551feb6-d833-4ba8-96bf-9566ed1c6548",
+          "dcterms:title": "Høydereferansemodell på Svalbard",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        }
+      ]
+    },
+    {
+      "@id": "geonorge:team/team_-_heimdall",
+      "@type": "geonorge:Team",
+      "dcterms:title": "TEAM - Heimdall",
+      "dcat:dataset": [
+        {
+          "@id": "geonorge:24d7e9d1-87f6-45a0-b38e-3447f8d7f9a1",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "24d7e9d1-87f6-45a0-b38e-3447f8d7f9a1",
+          "dcterms:title": "Matrikkelen - Bygningspunkt",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/c750a3f5-1cb8-46aa-a5eb-e13ee0cb9689",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "c750a3f5-1cb8-46aa-a5eb-e13ee0cb9689",
+              "dcterms:title": "Matrikkelen - Bygningspunkt WFS",
+              "dcterms:format": "OGC:WFS"
+            },
+            {
+              "@id": "geonorge:service/30dda4c6-2cba-4378-b2e7-26f644df9d99",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "30dda4c6-2cba-4378-b2e7-26f644df9d99",
+              "dcterms:title": "Matrikkelkart WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:74340c24-1c8a-4454-b813-bfe498e80f16",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "74340c24-1c8a-4454-b813-bfe498e80f16",
+          "dcterms:title": "Matrikkelen - Eiendomskart Teig",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/339d49c3-06a5-4310-9605-fced1fe465cb",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "339d49c3-06a5-4310-9605-fced1fe465cb",
+              "dcterms:title": "Matrikkelen - Eiendomskart Teig WFS",
+              "dcterms:format": "OGC:WFS"
+            },
+            {
+              "@id": "geonorge:service/0fa5fa99-27ce-49fc-adb1-551b93b7b4d4",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "0fa5fa99-27ce-49fc-adb1-551b93b7b4d4",
+              "dcterms:title": "Matrikkelen Enkel WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/30dda4c6-2cba-4378-b2e7-26f644df9d99",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "30dda4c6-2cba-4378-b2e7-26f644df9d99",
+              "dcterms:title": "Matrikkelkart WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:1a6f4938-45b5-4e8c-8d44-b3461b5e2571",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "1a6f4938-45b5-4e8c-8d44-b3461b5e2571",
+          "dcterms:title": "Matrikkelen Bygningspunkt - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [],
+          "geonorge:seriesCount": 6
+        },
+        {
+          "@id": "geonorge:e2b33de3-e191-4aac-b183-25a456d7da33",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "e2b33de3-e191-4aac-b183-25a456d7da33",
+          "dcterms:title": "Matrikkelen Eiendomskart Teig - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [],
+          "geonorge:seriesCount": 6
+        }
+      ]
+    },
+    {
+      "@id": "geonorge:team/team_-_nrl",
+      "@type": "geonorge:Team",
+      "dcterms:title": "TEAM - NRL",
+      "dcat:dataset": [
+        {
+          "@id": "geonorge:28c896d0-8a0d-4209-bf31-4931033b1082",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "28c896d0-8a0d-4209-bf31-4931033b1082",
+          "dcterms:title": "Nasjonalt register over luftfartshindre",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/73365525-f7e7-496f-a7e5-073087a25f03",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "73365525-f7e7-496f-a7e5-073087a25f03",
+              "dcterms:title": "Nasjonalt register over luftfartshindre WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
