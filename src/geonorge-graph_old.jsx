@@ -166,30 +166,14 @@ function Btn({ children, onClick, disabled, active, color, style: extra = {} }) 
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// Stage 1 — Load JSON-LD
+// Stage 1 — Paste JSON-LD
 // ─────────────────────────────────────────────────────────────────────────────
 
-const DEFAULT_URL = "https://raw.githubusercontent.com/tevbrasch/kv_team_datasett/main/output_with_teams.json";
-
 function StagePaste({ onLoaded }) {
-  const [url,      setUrl]      = useState(DEFAULT_URL);
-  const [text,     setText]     = useState("");
-  const [error,    setError]    = useState("");
-  const [loading,  setLoading]  = useState(false);
+  const [text, setText] = useState("");
+  const [error, setError] = useState("");
 
-  const loadFromUrl = async () => {
-    setError(""); setLoading(true);
-    try {
-      const res = await fetch(url);
-      if (!res.ok) throw new Error(`HTTP ${res.status} — ${res.statusText}`);
-      const raw = await res.text();
-      buildGraph(JSON.parse(raw));   // validate before accepting
-      onLoaded(raw);
-    } catch (e) { setError(e.message); }
-    finally { setLoading(false); }
-  };
-
-  const handlePaste = () => {
+  const handle = () => {
     try {
       const parsed = JSON.parse(text);
       buildGraph(parsed);
@@ -201,51 +185,29 @@ function StagePaste({ onLoaded }) {
   return (
     <div style={{ maxWidth: 700, width: "100%", display: "flex", flexDirection: "column", gap: 16 }}>
       <div>
-        <div style={{ fontSize: 20, fontWeight: 700, color: C.accent, marginBottom: 6 }}>Load JSON-LD</div>
+        <div style={{ fontSize: 20, fontWeight: 700, color: C.accent, marginBottom: 6 }}>Paste JSON-LD</div>
         <div style={{ fontSize: 11, color: C.muted, lineHeight: 1.8 }}>
-          Load directly from a URL, or paste the JSON-LD manually below.
+          Paste your DCAT JSON-LD file. Run{" "}
+          <code style={{ color: C.service, background: "#f0fdf4", padding: "1px 6px", borderRadius: 3 }}>
+            node geonorge-convert.js input.json output.jsonld
+          </code>{" "}
+          to generate it from the raw API, then add team nodes manually before pasting.
         </div>
       </div>
-
-      {/* URL loader */}
-      <div style={{ display: "flex", gap: 8 }}>
-        <input
-          value={url}
-          onChange={(e) => { setUrl(e.target.value); setError(""); }}
-          placeholder="https://..."
-          style={{
-            flex: 1, padding: "8px 12px", borderRadius: 4, fontSize: 11,
-            border: `1px solid ${C.border}`, background: C.panel,
-            color: C.text, fontFamily: "'Roboto Mono', monospace", outline: "none",
-          }}
-        />
-        <Btn active onClick={loadFromUrl} disabled={!url.trim() || loading}>
-          {loading ? "Loading…" : "Load URL →"}
-        </Btn>
-      </div>
-
-      {/* Divider */}
-      <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-        <div style={{ flex: 1, height: 1, background: C.border }} />
-        <span style={{ fontSize: 10, color: C.muted, textTransform: "uppercase", letterSpacing: "0.1em" }}>or paste manually</span>
-        <div style={{ flex: 1, height: 1, background: C.border }} />
-      </div>
-
-      {/* Paste area */}
       <textarea
         value={text}
         onChange={(e) => { setText(e.target.value); setError(""); }}
         placeholder='{ "@context": { ... }, "@graph": [ ... ] }'
         style={{
-          width: "100%", height: 280, background: C.panel,
+          width: "100%", height: 360, background: C.panel,
           border: `1px solid ${error ? C.error : C.border}`, borderRadius: 4,
           color: C.text, fontFamily: "'Roboto Mono', monospace", fontSize: 10,
           padding: 12, resize: "vertical", outline: "none",
           boxSizing: "border-box", lineHeight: 1.6,
         }}
       />
-      {error && <div style={{ fontSize: 10, color: C.error }}>Error: {error}</div>}
-      <Btn active onClick={handlePaste} disabled={!text.trim()}>Build Graph →</Btn>
+      {error && <div style={{ fontSize: 10, color: C.error }}>Parse error: {error}</div>}
+      <Btn active onClick={handle} disabled={!text.trim()}>Build Graph →</Btn>
     </div>
   );
 }

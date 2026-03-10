@@ -279,31 +279,14 @@ function TeamTable({ team, color, index }) {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// Load panel
+// Paste panel
 // ─────────────────────────────────────────────────────────────────────────────
 
-const DEFAULT_URL = "https://raw.githubusercontent.com/tevbrasch/kv_team_datasett/main/output_with_teams.json";
-
 function StagePaste({ onLoaded }) {
-  const [url,     setUrl]     = useState(DEFAULT_URL);
-  const [text,    setText]    = useState("");
-  const [error,   setError]   = useState("");
-  const [loading, setLoading] = useState(false);
+  const [text, setText] = useState("");
+  const [error, setError] = useState("");
 
-  const loadFromUrl = async () => {
-    setError(""); setLoading(true);
-    try {
-      const res = await fetch(url);
-      if (!res.ok) throw new Error(`HTTP ${res.status} — ${res.statusText}`);
-      const raw = await res.text();
-      const teams = parseTeams(JSON.parse(raw));   // validate before accepting
-      if (!teams.length) throw new Error("No geonorge:Team nodes found in @graph.");
-      onLoaded(raw);
-    } catch (e) { setError(e.message); }
-    finally { setLoading(false); }
-  };
-
-  const handlePaste = () => {
+  const handle = () => {
     try {
       const parsed = JSON.parse(text);
       const teams  = parseTeams(parsed);
@@ -315,53 +298,16 @@ function StagePaste({ onLoaded }) {
 
   return (
     <div style={{ maxWidth: 640, width: "100%", display: "flex", flexDirection: "column", gap: 16 }}>
-      <div style={{ fontSize: 22, fontWeight: 700, color: C.accent, marginBottom: 2 }}>Load JSON-LD</div>
+      <div style={{ fontSize: 22, fontWeight: 700, color: C.accent, marginBottom: 2 }}>Paste JSON-LD</div>
       <div style={{ fontSize: 13, color: C.muted, lineHeight: 1.8 }}>
-        Load directly from a URL, or paste the JSON-LD manually below.
+        Paste your DCAT JSON-LD file with team nodes to generate the dataset tables.
       </div>
-
-      {/* URL loader */}
-      <div style={{ display: "flex", gap: 8 }}>
-        <input
-          value={url}
-          onChange={(e) => { setUrl(e.target.value); setError(""); }}
-          placeholder="https://..."
-          style={{
-            flex: 1, padding: "8px 12px", borderRadius: 4, fontSize: 12,
-            border: `1px solid ${C.border}`, background: C.panel,
-            color: C.text, fontFamily: "'Roboto Mono', monospace", outline: "none",
-          }}
-        />
-        <button
-          onClick={loadFromUrl}
-          disabled={!url.trim() || loading}
-          style={{
-            padding: "8px 18px", fontSize: 12, fontFamily: "'Roboto', sans-serif",
-            letterSpacing: "0.1em", textTransform: "uppercase", borderRadius: 3,
-            background: (!url.trim() || loading) ? C.border : C.accent,
-            color: (!url.trim() || loading) ? C.muted : C.panel,
-            border: "none", cursor: (!url.trim() || loading) ? "default" : "pointer",
-            whiteSpace: "nowrap",
-          }}
-        >
-          {loading ? "Loading…" : "Load URL →"}
-        </button>
-      </div>
-
-      {/* Divider */}
-      <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-        <div style={{ flex: 1, height: 1, background: C.border }} />
-        <span style={{ fontSize: 11, color: C.muted, textTransform: "uppercase", letterSpacing: "0.1em" }}>or paste manually</span>
-        <div style={{ flex: 1, height: 1, background: C.border }} />
-      </div>
-
-      {/* Paste area */}
       <textarea
         value={text}
         onChange={(e) => { setText(e.target.value); setError(""); }}
         placeholder='{ "@context": { ... }, "@graph": [ ... ] }'
         style={{
-          width: "100%", height: 240, background: C.panel,
+          width: "100%", height: 320, background: C.panel,
           border: `1px solid ${error ? C.error : C.border}`, borderRadius: 4,
           color: C.text, fontFamily: "'Roboto Mono', monospace", fontSize: 12,
           padding: 12, resize: "vertical", outline: "none",
@@ -370,16 +316,20 @@ function StagePaste({ onLoaded }) {
       />
       {error && <div style={{ fontSize: 12, color: C.error }}>Error: {error}</div>}
       <button
-        onClick={handlePaste}
+        onClick={handle}
         disabled={!text.trim()}
         style={{
-          alignSelf: "flex-start", padding: "8px 20px", fontSize: 12,
-          fontFamily: "'Roboto', sans-serif", letterSpacing: "0.12em",
+          alignSelf:     "flex-start",
+          padding:       "8px 20px",
+          fontSize:       12,
+          fontFamily:    "'Roboto', sans-serif",
+          letterSpacing: "0.12em",
           textTransform: "uppercase",
-          background: text.trim() ? C.accent : C.border,
-          color:      text.trim() ? C.panel  : C.muted,
-          border: "none", borderRadius: 3,
-          cursor: text.trim() ? "pointer" : "default",
+          background:     text.trim() ? C.accent : C.border,
+          color:          text.trim() ? C.bg : C.muted,
+          border:         "none",
+          borderRadius:   3,
+          cursor:         text.trim() ? "pointer" : "default",
         }}
       >
         Build Tables →

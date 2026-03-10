@@ -4,12 +4,12 @@ import GraphApp from "./geonorge-graph.jsx";
 import TablesApp from "./geonorge-tables.jsx";
 
 const C = {
-  bg:     "#f8fafc",
-  panel:  "#ffffff",
-  border: "#e2e8f0",
-  text:   "#1e293b",
-  muted:  "#64748b",
-  accent: "#0284c7",
+  bg:     "#080d16",
+  panel:  "#0d1424",
+  border: "#1a2540",
+  text:   "#dce8f5",
+  muted:  "#4a6080",
+  accent: "#38bdf8",
 };
 
 function Root() {
@@ -19,22 +19,22 @@ function Root() {
     <div style={{ width: "100vw", height: "100vh", background: C.bg, display: "flex", flexDirection: "column", overflow: "hidden" }}>
       {/* Top nav */}
       <div style={{ display: "flex", alignItems: "center", gap: 0, padding: "0 18px", background: C.panel, borderBottom: `1px solid ${C.border}`, flexShrink: 0 }}>
-        <div style={{ fontSize: 13, fontWeight: 700, color: C.accent, letterSpacing: "0.15em", fontFamily: "'Roboto', sans-serif", marginRight: 20, padding: "11px 0" }}>
+        <div style={{ fontSize: 12, fontWeight: 700, color: C.accent, letterSpacing: "0.15em", fontFamily: "'Courier New', monospace", marginRight: 20, padding: "10px 0" }}>
           GEONORGE
         </div>
 
         {[
-          { id: "graph",  label: "Graph View"  },
+          { id: "graph",  label: "Graph View" },
           { id: "tables", label: "Table View" },
         ].map((tab) => (
           <button
             key={tab.id}
             onClick={() => setView(tab.id)}
             style={{
-              padding:       "13px 18px",
-              fontSize:       11,
-              fontFamily:    "'Roboto', sans-serif",
-              letterSpacing: "0.08em",
+              padding:       "12px 18px",
+              fontSize:       10,
+              fontFamily:    "'Courier New', monospace",
+              letterSpacing: "0.1em",
               textTransform: "uppercase",
               background:    "transparent",
               color:          view === tab.id ? C.accent : C.muted,
@@ -49,7 +49,7 @@ function Root() {
         ))}
       </div>
 
-      {/* View — both mounted, only one visible, so state is preserved when switching */}
+      {/* View */}
       <div style={{ flex: 1, overflow: "hidden", display: "flex", flexDirection: "column" }}>
         <div style={{ display: view === "graph"  ? "contents" : "none" }}><GraphApp /></div>
         <div style={{ display: view === "tables" ? "contents" : "none" }}><TablesApp /></div>
