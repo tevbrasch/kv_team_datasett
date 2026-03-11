@@ -82,102 +82,6 @@
           ]
         },
         {
-          "@id": "geonorge:4eccc7ed-916a-40d3-9b0c-7b02d44db0f9",
-          "@type": "dcat:Dataset",
-          "dcterms:identifier": "4eccc7ed-916a-40d3-9b0c-7b02d44db0f9",
-          "dcterms:title": "Fylkeskart - kommunegrenser 2020, illustrasjonskart",
-          "dcterms:publisher": {
-            "@type": "foaf:Organization",
-            "foaf:name": "Kartverket"
-          },
-          "geonorge:isDokData": false,
-          "geonorge:dataAccess": "Åpne data",
-          "dcat:service": []
-        },
-        {
-          "@id": "geonorge:f7df7a18-b30f-4745-bd64-d0863812350c",
-          "@type": "dcat:Dataset",
-          "dcterms:identifier": "f7df7a18-b30f-4745-bd64-d0863812350c",
-          "dcterms:title": "Matrikkelen - Adresse",
-          "dcterms:publisher": {
-            "@type": "foaf:Organization",
-            "foaf:name": "Kartverket"
-          },
-          "geonorge:isDokData": true,
-          "geonorge:dataAccess": "Åpne data",
-          "dcat:service": [
-            {
-              "@id": "geonorge:service/f004268c-d4a1-4801-91cb-daa46236fab7",
-              "@type": "dcat:DataService",
-              "dcterms:identifier": "f004268c-d4a1-4801-91cb-daa46236fab7",
-              "dcterms:title": "Topografisk Norgeskart WMS",
-              "dcterms:format": "OGC:WMS"
-            },
-            {
-              "@id": "geonorge:service/0fa5fa99-27ce-49fc-adb1-551b93b7b4d4",
-              "@type": "dcat:DataService",
-              "dcterms:identifier": "0fa5fa99-27ce-49fc-adb1-551b93b7b4d4",
-              "dcterms:title": "Matrikkelen Enkel WMS",
-              "dcterms:format": "OGC:WMS"
-            },
-            {
-              "@id": "geonorge:service/0c0f114d-a8ee-444d-8a88-93459bccf506",
-              "@type": "dcat:DataService",
-              "dcterms:identifier": "0c0f114d-a8ee-444d-8a88-93459bccf506",
-              "dcterms:title": "Matrikkelen - Adresse WFS",
-              "dcterms:format": "OGC:WFS"
-            },
-            {
-              "@id": "geonorge:service/30dda4c6-2cba-4378-b2e7-26f644df9d99",
-              "@type": "dcat:DataService",
-              "dcterms:identifier": "30dda4c6-2cba-4378-b2e7-26f644df9d99",
-              "dcterms:title": "Matrikkelkart WMS",
-              "dcterms:format": "OGC:WMS"
-            }
-          ]
-        },
-        {
-          "@id": "geonorge:365b0591-b536-42a6-a20d-22e404fbfe55",
-          "@type": "dcat:Dataset",
-          "dcterms:identifier": "365b0591-b536-42a6-a20d-22e404fbfe55",
-          "dcterms:title": "Matrikkelen - Adresse Leilighetsnivå",
-          "dcterms:publisher": {
-            "@type": "foaf:Organization",
-            "foaf:name": "Kartverket"
-          },
-          "geonorge:isDokData": false,
-          "geonorge:dataAccess": "Åpne data",
-          "dcat:service": []
-        },
-        {
-          "@id": "geonorge:e6efb7cc-2356-424e-b654-7e4085545688",
-          "@type": "dcat:Dataset",
-          "dcterms:identifier": "e6efb7cc-2356-424e-b654-7e4085545688",
-          "dcterms:title": "Matrikkelen Adresse - historiske versjoner",
-          "dcterms:publisher": {
-            "@type": "foaf:Organization",
-            "foaf:name": "Kartverket"
-          },
-          "geonorge:isDokData": false,
-          "geonorge:dataAccess": "Åpne data",
-          "dcat:service": [],
-          "geonorge:seriesCount": 6
-        },
-        {
-          "@id": "geonorge:b1a91f1d-dd5a-4278-8a5e-4acd3ad75d40",
-          "@type": "dcat:Dataset",
-          "dcterms:identifier": "b1a91f1d-dd5a-4278-8a5e-4acd3ad75d40",
-          "dcterms:title": "Matrikkelen Adresse Leilighetsnivå - historiske versjoner",
-          "dcterms:publisher": {
-            "@type": "foaf:Organization",
-            "foaf:name": "Kartverket"
-          },
-          "geonorge:isDokData": false,
-          "geonorge:dataAccess": "Åpne data",
-          "dcat:service": [],
-          "geonorge:seriesCount": 6
-        },
-        {
           "@id": "geonorge:e106adf4-c9d8-4fce-a9b5-7886a4126d23",
           "@type": "dcat:Dataset",
           "dcterms:identifier": "e106adf4-c9d8-4fce-a9b5-7886a4126d23",
@@ -1337,6 +1241,19 @@
           "@type": "dcat:Dataset",
           "dcterms:identifier": "8c041919-607d-4df6-adbf-f2cce9472ad2",
           "dcterms:title": "Fylkeskart - kommunegrenser 2019, illustrasjonskart",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
+          "@id": "geonorge:4eccc7ed-916a-40d3-9b0c-7b02d44db0f9",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "4eccc7ed-916a-40d3-9b0c-7b02d44db0f9",
+          "dcterms:title": "Fylkeskart - kommunegrenser 2020, illustrasjonskart",
           "dcterms:publisher": {
             "@type": "foaf:Organization",
             "foaf:name": "Kartverket"
@@ -3659,6 +3576,61 @@
       "dcterms:title": "TEAM - Heimdall",
       "dcat:dataset": [
         {
+          "@id": "geonorge:f7df7a18-b30f-4745-bd64-d0863812350c",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "f7df7a18-b30f-4745-bd64-d0863812350c",
+          "dcterms:title": "Matrikkelen - Adresse",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": true,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [
+            {
+              "@id": "geonorge:service/f004268c-d4a1-4801-91cb-daa46236fab7",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "f004268c-d4a1-4801-91cb-daa46236fab7",
+              "dcterms:title": "Topografisk Norgeskart WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/0fa5fa99-27ce-49fc-adb1-551b93b7b4d4",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "0fa5fa99-27ce-49fc-adb1-551b93b7b4d4",
+              "dcterms:title": "Matrikkelen Enkel WMS",
+              "dcterms:format": "OGC:WMS"
+            },
+            {
+              "@id": "geonorge:service/0c0f114d-a8ee-444d-8a88-93459bccf506",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "0c0f114d-a8ee-444d-8a88-93459bccf506",
+              "dcterms:title": "Matrikkelen - Adresse WFS",
+              "dcterms:format": "OGC:WFS"
+            },
+            {
+              "@id": "geonorge:service/30dda4c6-2cba-4378-b2e7-26f644df9d99",
+              "@type": "dcat:DataService",
+              "dcterms:identifier": "30dda4c6-2cba-4378-b2e7-26f644df9d99",
+              "dcterms:title": "Matrikkelkart WMS",
+              "dcterms:format": "OGC:WMS"
+            }
+          ]
+        },
+        {
+          "@id": "geonorge:365b0591-b536-42a6-a20d-22e404fbfe55",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "365b0591-b536-42a6-a20d-22e404fbfe55",
+          "dcterms:title": "Matrikkelen - Adresse Leilighetsnivå",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": []
+        },
+        {
           "@id": "geonorge:24d7e9d1-87f6-45a0-b38e-3447f8d7f9a1",
           "@type": "dcat:Dataset",
           "dcterms:identifier": "24d7e9d1-87f6-45a0-b38e-3447f8d7f9a1",
@@ -3720,6 +3692,34 @@
               "dcterms:format": "OGC:WMS"
             }
           ]
+        },
+        {
+          "@id": "geonorge:e6efb7cc-2356-424e-b654-7e4085545688",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "e6efb7cc-2356-424e-b654-7e4085545688",
+          "dcterms:title": "Matrikkelen Adresse - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [],
+          "geonorge:seriesCount": 6
+        },
+        {
+          "@id": "geonorge:b1a91f1d-dd5a-4278-8a5e-4acd3ad75d40",
+          "@type": "dcat:Dataset",
+          "dcterms:identifier": "b1a91f1d-dd5a-4278-8a5e-4acd3ad75d40",
+          "dcterms:title": "Matrikkelen Adresse Leilighetsnivå - historiske versjoner",
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Kartverket"
+          },
+          "geonorge:isDokData": false,
+          "geonorge:dataAccess": "Åpne data",
+          "dcat:service": [],
+          "geonorge:seriesCount": 6
         },
         {
           "@id": "geonorge:1a6f4938-45b5-4e8c-8d44-b3461b5e2571",
