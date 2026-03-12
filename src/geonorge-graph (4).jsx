@@ -409,15 +409,50 @@ function Graph({ jsonLdText, onBack }) {
     };
 
     // ── Simulation ─────────────────────────────────────────────────────────
-    const anyNew = nodes.some((n) => !posRef.current.has(n.id));
+    const isInitialLoad = posRef.current.size === 0;
+    const anyNew = !isInitialLoad && nodes.some((n) => !posRef.current.has(n.id));
+
+    // Seed brand-new nodes near their parent so they don't appear at the canvas
+    // centre and drag everything else with them.
+    if (!isInitialLoad) {
+      nodes.forEach((n) => {
+        if (posRef.current.has(n.id)) return;          // already placed
+        const parentLink = allLinks.find((l) => {
+          const tgt = l.target?.id ?? l.target;
+          const src = l.source?.id ?? l.source;
+          return tgt === n.id && posRef.current.has(src);
+        });
+        if (parentLink) {
+          const p = posRef.current.get(parentLink.source?.id ?? parentLink.source);
+          n.x = p.x + (Math.random() - 0.5) * 80;
+          n.y = p.y + (Math.random() - 0.5) * 80;
+        }
+      });
+
+      // Pin every already-positioned node so it cannot drift while the
+      // simulation settles the newly-added ones (or cleans up after removal).
+      nodes.forEach((n) => {
+        if (posRef.current.has(n.id)) { n.fx = n.x; n.fy = n.y; }
+      });
+    }
+
     const sim = d3.forceSimulation(nodes)
-      .alpha(anyNew ? 0.9 : 0.25)
+      .alpha(isInitialLoad ? 0.9 : anyNew ? 0.45 : 0.01)
+      .alphaDecay(isInitialLoad ? 0.028 : 0.06)
       .force("link", d3.forceLink(links).id((d) => d.id)
         .distance((l) => l.linkType === "team" ? 180 : 110)
         .strength(0.5))
       .force("charge",    d3.forceManyBody().strength((d) => d.type === "team" ? -800 : d.type === "dataset" ? -300 : -150))
-      .force("center",    d3.forceCenter(W / 2, H / 2))
+      // forceCenter only on initial load — afterwards it pulls nodes away from
+      // wherever the user has panned and causes the viewport to feel like it jumped.
+      .force("center",    isInitialLoad ? d3.forceCenter(W / 2, H / 2) : null)
       .force("collision", d3.forceCollide().radius((d) => nodeRadius(d) + 55));
+
+    // Release the position pins once the simulation has cooled so dragging
+    // still works normally afterwards.
+    if (!isInitialLoad) {
+      sim.on("end", () => { nodes.forEach((n) => { n.fx = null; n.fy = null; }); });
+    }
 
     // ── Links ──────────────────────────────────────────────────────────────
     const linkEl = g.append("g").selectAll("line").data(links).join("line")
